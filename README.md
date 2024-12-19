@@ -99,17 +99,13 @@
 
 When deploying the application:
 
-1. Update CORS settings in `preloved/settings.py`:
+Update CORS settings in `preloved/settings.py`:
    ```python
    CORS_ALLOWED_ORIGINS = [
        "https://your-production-frontend-url.com",
        "https://api.your-backend-url.com",
    ]
    ```
-
-2. Configure production environment variables
-3. Set up proper security measures
-4. Follow Django deployment best practices
 
 For detailed deployment instructions, refer to DigitalOcean's comprehensive guide on [How to Set Up Django with Postgres, Nginx, and Gunicorn on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-django-with-postgres-nginx-and-gunicorn-on-ubuntu).
 
